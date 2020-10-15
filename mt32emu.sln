@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mt32emu", "mt32emu\Mt32emu.csproj", "{8FC0998A-8D9D-43C6-A9D3-35999BD0793E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FC0998A-8D9D-43C6-A9D3-35999BD0793E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC0998A-8D9D-43C6-A9D3-35999BD0793E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC0998A-8D9D-43C6-A9D3-35999BD0793E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC0998A-8D9D-43C6-A9D3-35999BD0793E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4BBB94E4-ED36-4C34-9AD4-B77BF83A1C05}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageLicenseExpression>LGPL-2.1-or-later</PackageLicenseExpression>
+		<Description>.Net Core interface for the open-source mt32emu/munt MT-32 emulator. This package includes native binaries built for Windows (x64/x86) and Linux (x64), along with a managed wrapper for easy use in .net 5+.</Description>
+		<PackageTags>mt32 munt</PackageTags>
+	</PropertyGroup>
+	<ItemGroup>
+		<Content Include="native\linux-x64\libmt32emu.so">
+			<PackagePath>runtimes/linux-x64/native/</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="native\win-x64\libmt32emu.dll">
+			<PackagePath>runtimes/win-x64/native/</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+		<Content Include="native\win-x86\libmt32emu.dll">
+			<PackagePath>runtimes/win-x86/native/</PackagePath>
+			<Pack>true</Pack>
+		</Content>
+	</ItemGroup>
+</Project>

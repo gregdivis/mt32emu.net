@@ -7,6 +7,10 @@
 		<PackageLicenseExpression>LGPL-2.1-or-later</PackageLicenseExpression>
 		<Description>.Net Core interface for the open-source mt32emu/munt MT-32 emulator. This package includes native binaries built for Windows (x64/x86) and Linux (x64), along with a managed wrapper for easy use in .net 5+.</Description>
 		<PackageTags>mt32 munt</PackageTags>
+		<PackageProjectUrl>https://github.com/gregdivis/mt32emu.net</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/gregdivis/mt32emu.net.git</RepositoryUrl>
+		<PackageId>Mt32emu.net</PackageId>
+		<Authors>Greg Divis</Authors>
 	</PropertyGroup>
 	<ItemGroup>
 		<Content Include="native\linux-x64\libmt32emu.so">

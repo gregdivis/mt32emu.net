@@ -1,13 +1,12 @@
-﻿namespace Mt32emu
+﻿namespace Mt32emu;
+
+/// <summary>
+/// Specifies the quality level for sample rate conversion.
+/// </summary>
+public enum SampleRateConversionQuality
 {
-    /// <summary>
-    /// Specifies the quality level for sample rate conversion.
-    /// </summary>
-    public enum SampleRateConversionQuality
-    {
-        Fastest,
-        Fast,
-        Good,
-        Best
-    }
+    Fastest,
+    Fast,
+    Good,
+    Best
 }
